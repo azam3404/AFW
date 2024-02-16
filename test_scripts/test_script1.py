@@ -6,3 +6,4 @@ class TestScript1(BaseSetup):
         print("This is test script 1")
         print(self.driver.title)
         Excel.get_data("../test_data/input.xlsx",'login',2,2)
+        print("hello world")
